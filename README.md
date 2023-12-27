@@ -16,6 +16,7 @@ Colunas: codigo_cliente, nome_cliente, sobrenome_cliente, telefones_cliente, mun
 &nbsp;
 
 **Tabela 2:**
+
 Nome da tabela: produto
 
 Colunas: codigo_produto, nome_produto, descricao_produto, codigo_tipo_produto, tipo_produto, codigo_diretor_responsavel, nome_diretor_responsavel, email_diretor_responsavel
