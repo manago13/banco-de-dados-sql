@@ -1,4 +1,11 @@
-# Modelagem e normalização de bancos de dados relacionais
+O projeto está subdividido em 3 etapas:
+1. Modelagem e normalização de banco de dados relacionais de uma companhia bancária
+2. Consultas SQL simples e complexas em um banco de dados de um e-commerce no PostgreSQL
+3. Inserções, alterações e remoções de objetos e dados em um banco de dados de uma escola no PostgreSQL
+
+&nbsp;
+
+# 1. Modelagem e normalização de bancos de dados relacionais
 Modelagem e normalização de banco de dados com o objetivo de mapear os clientes de um banco pelos diferentes produtos financeiros contratado por eles.
 
 A companhia tem uma grande quantidade de clientes e oferece uma variedade de produtos financeiros, como cartões de crédito, empréstimos, seguros e investimentos. No entanto, eles estão tendo dificuldades para entender quais produtos eram mais populares entre os clientes e como esses produtos estavam interagindo entre si.
@@ -29,7 +36,7 @@ Foi feito, então:
 
 &nbsp;
 
-# Consultas SQL simples e complexas em um banco de dados PostgreSQL
+# 2. Consultas SQL simples e complexas em um banco de dados PostgreSQL
 Construção de um banco de dados de e-commerce que tem produtos e categorias, onde um produto pode pertencer a várias categorias e uma categoria pode estar associada a vários produtos.  Nesse caso, teríamos duas tabelas: "produtos" e "categorias", com uma tabela intermediária "produtos_categorias" para relacionar os produtos às suas categorias.
 
 Usando o subconjunto da "structured query language" (DQL), foram realizadas consultas no banco de dados de modo a atender cada uma das seguintes solicitações:
@@ -39,7 +46,7 @@ Usando o subconjunto da "structured query language" (DQL), foram realizadas cons
 
 &nbsp;
 
-# Inserções, alterações e remoções de objetos e dados em um banco de dados PostgreSQL
+# 3. Inserções, alterações e remoções de objetos e dados em um banco de dados PostgreSQL
 Construção de um banco de dados de uma escola, com alunos e turmas, que representa um relacionamento do tipo 1,n entre as entidades "aluno" e "turma", partindo do seguinte esboço:
 
 &nbsp;
